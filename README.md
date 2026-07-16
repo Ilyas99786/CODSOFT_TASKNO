@@ -201,7 +201,7 @@ I'm always open to connecting with developers, technology enthusiasts, and profe
 
 * 💼 **LinkedIn:** [Connect With Me](https://www.linkedin.com/in/sheikhilyasquadri99/?isSelfProfile=false)
 * 🐙 **GitHub:** [Explore My GitHub](https://github.com/Ilyas99786)
-* 📧 **Email:** [sheikhilyasquadri99@gmail.com](mailto:your-email@example.com)
+* 📧 **Email:** [sheikhilyasquadri99@gmail.com](mailto:sheikhilyasquadri99@gmail.com)
 
 ---
 
