@@ -199,9 +199,9 @@ I am continuously learning, exploring new technologies, and working toward becom
 
 I'm always open to connecting with developers, technology enthusiasts, and professionals. Feel free to reach out and explore my work! 🌍✨
 
-* 💼 **LinkedIn:** [Connect With Me](#)
-* 🐙 **GitHub:** [Explore My GitHub](#)
-* 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)
+* 💼 **LinkedIn:** [Connect With Me](https://www.linkedin.com/in/sheikhilyasquadri99/?isSelfProfile=false)
+* 🐙 **GitHub:** [Explore My GitHub](https://github.com/Ilyas99786)
+* 📧 **Email:** [sheikhilyasquadri99@gmail.com](mailto:your-email@example.com)
 
 ---
 
