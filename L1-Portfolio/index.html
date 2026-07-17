@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a full stack and Android developer.">
+  <title>Ilyas | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Ilyas<span>.</span></a>
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Sheikh Ilyas <span>Quadri</span></h1>
+        <h2>Full Stack & Android Developer</h2>
+        <p class="hero-text">
+          I build modern web experiences and user-focused mobile applications
+          with clean code, thoughtful design, and a passion for solving real-world problems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View My Work <span>→</span></a>
+          <a href="#contact" class="btn secondary">Let's Talk</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Ilyas99786" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/sheikhilyasquadri99/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="code-card">
+          <div class="card-top"><span></span><span></span><span></span></div>
+          <pre><code><b>const</b> developer = {
+  name: <em>"Ilyas"</em>,
+  focus: [
+    <em>"Full Stack"</em>,
+    <em>"Android"</em>,
+    <em>"UI/UX"</em>
+  ],
+  passion: <em>"Building ideas"</em>,
+  available: <strong>true</strong>
+};</code></pre>
+        </div>
+        <div class="float-card card-one">⚡ Clean Code</div>
+        <div class="float-card card-two">🚀 Build. Learn. Grow.</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo">
+          <div class="photo-placeholder">
+            <span>IQ</span>
+            <small>Add Your Photo Here</small>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3>Turning ideas into useful digital experiences.</h3>
+          <p>
+            I'm a Computer Science engineering student and developer focused on creating
+            scalable web applications and user-centric Android apps. I enjoy combining
+            development, problem-solving, and design to build products that feel simple and useful.
+          </p>
+          <p>
+            My goal is to keep learning modern technologies, write maintainable code,
+            and grow into a professional software engineer capable of delivering high-impact solutions.
+          </p>
+          <div class="quick-info">
+            <div><span>Education</span><strong>B.Tech CSE</strong></div>
+            <div><span>Focus</span><strong>Software Development</strong></div>
+            <div><span>Location</span><strong>Odisha, India</strong></div>
+            <div><span>Interests</span><strong>Web • Android • UI/UX</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading">
+        <p>MY EXPERTISE</p>
+        <h2>Skills & <span>Technologies</span></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Frontend</h3>
+          <p>Creating responsive and interactive user interfaces.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Angular</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">{ }</div>
+          <h3>Backend</h3>
+          <p>Building APIs and reliable application logic.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>REST API</span><span>MySQL</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">▣</div>
+          <h3>Android</h3>
+          <p>Developing practical and user-focused mobile applications.</p>
+          <div class="tags"><span>Kotlin</span><span>Java</span><span>Android Studio</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">✦</div>
+          <h3>Tools & Design</h3>
+          <p>Designing, versioning, and improving development workflows.</p>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>Figma</span><span>UI/UX</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <p>SELECTED WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-cover cover-one">
+            <span>01</span>
+            <div>🍽️</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">WEB APPLICATION</div>
+            <h3>E-Restaurant Website</h3>
+            <p>A modern food ordering platform with supplier management, cart, order tracking, payment verification, and invoice features.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/Ilyas99786" target="_blank" rel="noopener noreferrer">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover cover-two">
+            <span>02</span>
+            <div>📔</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">ANDROID APPLICATION</div>
+            <h3>Digital Diary</h3>
+            <p>A personal diary app featuring journal entries, calendar organization, and reminders for a better daily planning experience.</p>
+            <div class="tags"><span>Kotlin</span><span>Android Studio</span></div>
+            <a href="https://github.com/Ilyas99786" target="_blank" rel="noopener noreferrer">View Project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover cover-three">
+            <span>03</span>
+            <div>🎓</div>
+          </div>
+          <div class="project-body">
+            <div class="project-type">MANAGEMENT SYSTEM</div>
+            <h3>Mentoring Management</h3>
+            <p>Contributed to the attendance module of a mentoring management system, helping organize and manage student attendance records.</p>
+            <div class="tags"><span>Development</span><span>Team Project</span></div>
+            <a href="https://github.com/Ilyas99786" target="_blank" rel="noopener noreferrer">View GitHub →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="resume section" id="resume">
+      <div class="resume-box">
+        <div>
+          <p class="eyebrow">MY RESUME</p>
+          <h2>Want to know more about my <span>journey?</span></h2>
+          <p>Explore my education, technical skills, projects, and development experience.</p>
+        </div>
+        <a href="resume.pdf" download class="btn primary">Download Resume ↓</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Let's Build Something <span>Great</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-copy">
+          <h3>Have a project or opportunity in mind?</h3>
+          <p>I'm always interested in learning, collaborating, and discussing software development opportunities.</p>
+          <div class="contact-list">
+            <a href="mailto:your-email@example.com"><span>✉</span><div><small>Email</small>your-email@example.com</div></a>
+            <div><span>⌖</span><div><small>Location</small>Odisha, India</div></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Your email" required>
+          </div>
+          <input type="text" placeholder="Subject" required>
+          <textarea rows="6" placeholder="Tell me about your project..." required></textarea>
+          <button type="submit" class="btn primary">Send Message →</button>
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">Ilyas<span>.</span></a>
+    <p>© 2026 Sheikh Ilyas Quadri. Designed & built with passion.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
