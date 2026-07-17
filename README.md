@@ -57,10 +57,6 @@ The portfolio provides an interactive and visually appealing platform where visi
 * 🌐 HTML5
 * 🎨 CSS3
 
-### 🔴 Live Demo
-
-👉 **[Click Here to View Portfolio Demo](#)**
-
 ---
 
 ## 🎨 Level 1 — Task 2: Landing Page
@@ -87,10 +83,6 @@ This project focuses on creating a structured, responsive, and user-friendly web
 
 * 🌐 HTML5
 * 🎨 CSS3
-
-### 🔴 Live Demo
-
-👉 **[Click Here to View Landing Page Demo](#)**
 
 ---
 
@@ -120,10 +112,6 @@ The calculator provides a simple and intuitive interface for performing basic ma
 * 🌐 HTML5
 * 🎨 CSS3
 * ⚡ JavaScript
-
-### 🔴 Live Demo
-
-👉 **[Click Here to View Calculator Demo](#)**
 
 ---
 
