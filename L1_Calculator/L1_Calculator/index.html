@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern professional calculator built using HTML, CSS and JavaScript.">
+  <title>CalcFlow | Professional Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="intro">
+      <div class="brand"><span class="brand-icon">⌁</span> CalcFlow</div>
+      <p class="eyebrow">SMART • FAST • MINIMAL</p>
+      <h1>Calculate with<br><span>clarity.</span></h1>
+      <p class="description">
+        A sleek and responsive calculator designed for everyday calculations.
+        Simple on the surface, powerful where it matters.
+      </p>
+
+      <div class="features">
+        <div><span>⌨</span><p><strong>Keyboard Ready</strong><small>Type naturally and calculate faster</small></p></div>
+        <div><span>↺</span><p><strong>Live History</strong><small>See your recent calculations</small></p></div>
+        <div><span>⚡</span><p><strong>Instant Results</strong><small>Clean and accurate calculations</small></p></div>
+      </div>
+    </section>
+
+    <section class="calculator-area">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <div class="calculator">
+        <div class="calculator-top">
+          <div class="mini-brand"><i></i> CALCFLOW</div>
+          <button class="history-toggle" id="historyToggle" title="Toggle history">↺</button>
+        </div>
+
+        <div class="display">
+          <div class="expression" id="expression">Ready to calculate</div>
+          <div class="result" id="result">0</div>
+        </div>
+
+        <div class="keys">
+          <button class="key function danger" data-action="clear">AC</button>
+          <button class="key function" data-action="delete">DEL</button>
+          <button class="key function" data-value="%">%</button>
+          <button class="key operator" data-value="/">÷</button>
+
+          <button class="key" data-value="7">7</button>
+          <button class="key" data-value="8">8</button>
+          <button class="key" data-value="9">9</button>
+          <button class="key operator" data-value="*">×</button>
+
+          <button class="key" data-value="4">4</button>
+          <button class="key" data-value="5">5</button>
+          <button class="key" data-value="6">6</button>
+          <button class="key operator" data-value="-">−</button>
+
+          <button class="key" data-value="1">1</button>
+          <button class="key" data-value="2">2</button>
+          <button class="key" data-value="3">3</button>
+          <button class="key operator" data-value="+">+</button>
+
+          <button class="key zero" data-value="0">0</button>
+          <button class="key" data-value=".">.</button>
+          <button class="key equals" data-action="calculate">=</button>
+        </div>
+      </div>
+
+      <aside class="history-panel" id="historyPanel">
+        <div class="history-head">
+          <div><small>RECENT</small><h2>History</h2></div>
+          <button id="closeHistory">×</button>
+        </div>
+        <div class="history-list" id="historyList">
+          <p class="empty-history">Your calculations will appear here.</p>
+        </div>
+        <button class="clear-history" id="clearHistory">Clear history</button>
+      </aside>
+
+      <p class="keyboard-note"><span>⌨</span> Tip: Use your keyboard for faster calculations</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with <span>HTML</span>, <span>CSS Grid</span> & <span>JavaScript</span></p>
+    <small>CALCULATOR • FOR DEMO</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
