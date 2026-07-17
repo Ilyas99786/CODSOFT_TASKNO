@@ -1,0 +1,1 @@
+Nexora modern landing page demo. Open index.html in a browser. Built with HTML, CSS and a small JavaScript mobile menu.
